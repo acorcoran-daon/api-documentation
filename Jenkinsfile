@@ -45,6 +45,7 @@ pipeline {
           sh 'echo'
         }
 
+        sleep 3
       }
     }
 

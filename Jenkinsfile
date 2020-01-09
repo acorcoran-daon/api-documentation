@@ -41,7 +41,10 @@ pipeline {
     stage('error') {
       steps {
         echo 'test'
-        timeout(unit: 'MINUTES', time: 30)
+        timeout(unit: 'MINUTES', time: 30) {
+          sh 'ehco'
+        }
+
       }
     }
 

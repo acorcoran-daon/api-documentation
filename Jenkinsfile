@@ -42,7 +42,7 @@ pipeline {
       steps {
         echo 'test'
         timeout(unit: 'MINUTES', time: 30) {
-          sh 'ehco'
+          sh 'echo'
         }
 
       }

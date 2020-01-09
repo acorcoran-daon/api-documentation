@@ -38,9 +38,10 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('error') {
       steps {
         echo 'test'
+        timeout(unit: 'MINUTES', time: 30)
       }
     }
 

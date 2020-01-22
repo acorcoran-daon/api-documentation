@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-22T22:12:02.591Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="x7-8QJGoBpQyomSmCDEA" version="12.5.6" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-01-22T22:14:26.203Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="Kf2mu5ZzSZtllPyitewf" version="12.5.6" type="github" pages="3">
   <diagram name="Document SDK 2.0 Mindmap" id="ad52d381-51e7-2e0d-a935-2d0ddd2fd229">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -244,11 +244,11 @@
           <mxGeometry x="223" y="10" width="100" height="820" as="geometry"/>
         </mxCell>
         <mxCell id="vW60nO0JE0_KMwUsozgh-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;dashed=1;" vertex="1" parent="vW60nO0JE0_KMwUsozgh-1">
-          <mxGeometry x="45" y="150" width="10" height="440" as="geometry"/>
+          <mxGeometry x="45" y="150" width="10" height="350" as="geometry"/>
         </mxCell>
-        <mxCell id="vW60nO0JE0_KMwUsozgh-10" value="readDocument" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;dashed=1;exitX=1.24;exitY=0.101;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="vW60nO0JE0_KMwUsozgh-1" source="vW60nO0JE0_KMwUsozgh-4">
+        <mxCell id="vW60nO0JE0_KMwUsozgh-10" value="readDocument" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;dashed=1;" edge="1" parent="vW60nO0JE0_KMwUsozgh-1">
           <mxGeometry x="-0.6735" y="-6" relative="1" as="geometry">
-            <mxPoint x="87" y="209" as="sourcePoint"/>
+            <mxPoint x="58" y="194" as="sourcePoint"/>
             <mxPoint x="58" y="240" as="targetPoint"/>
             <Array as="points">
               <mxPoint x="157" y="194"/>
@@ -257,25 +257,36 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vW60nO0JE0_KMwUsozgh-2" value="NFC Metadata Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;dashed=1;" vertex="1" parent="yhJoEX59a98nHaoArZQx-1">
-          <mxGeometry x="427" y="10" width="100" height="820" as="geometry"/>
+        <mxCell id="vW60nO0JE0_KMwUsozgh-19" value="unlock chip" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;dashed=1;exitX=1.4;exitY=0.363;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="vW60nO0JE0_KMwUsozgh-1" source="vW60nO0JE0_KMwUsozgh-4">
+          <mxGeometry x="-0.6441" y="-6" relative="1" as="geometry">
+            <mxPoint x="57" y="414" as="sourcePoint"/>
+            <mxPoint x="61" y="340" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="59" y="278"/>
+              <mxPoint x="177" y="278"/>
+              <mxPoint x="177" y="340"/>
+            </Array>
+            <mxPoint as="offset"/>
+          </mxGeometry>
         </mxCell>
         <mxCell id="vW60nO0JE0_KMwUsozgh-3" value="Onboarding Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;dashed=1;" vertex="1" parent="yhJoEX59a98nHaoArZQx-1">
           <mxGeometry x="630" y="10" width="100" height="810" as="geometry"/>
         </mxCell>
         <mxCell id="vW60nO0JE0_KMwUsozgh-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;dashed=1;" vertex="1" parent="vW60nO0JE0_KMwUsozgh-3">
-          <mxGeometry x="45" y="610" width="10" height="80" as="geometry"/>
+          <mxGeometry x="45" y="520" width="10" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="vW60nO0JE0_KMwUsozgh-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;dashed=1;" vertex="1" parent="vW60nO0JE0_KMwUsozgh-3">
-          <mxGeometry x="45" y="750" width="10" height="40" as="geometry"/>
+          <mxGeometry x="45" y="660" width="10" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="vW60nO0JE0_KMwUsozgh-31" value="Validate NFC Signature" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;dashed=1;exitX=1.18;exitY=0.708;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="vW60nO0JE0_KMwUsozgh-30" parent="vW60nO0JE0_KMwUsozgh-3" source="vW60nO0JE0_KMwUsozgh-23">
+        <mxCell id="vW60nO0JE0_KMwUsozgh-31" value="Validate NFC Signature" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;dashed=1;exitX=1.18;exitY=0.708;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="vW60nO0JE0_KMwUsozgh-3" source="vW60nO0JE0_KMwUsozgh-23">
           <mxGeometry x="0.0083" y="-20" relative="1" as="geometry">
             <mxPoint x="50" y="730" as="sourcePoint"/>
             <Array as="points">
-              <mxPoint x="75" y="667"/>
-              <mxPoint x="75" y="750"/>
+              <mxPoint x="75" y="577"/>
+              <mxPoint x="75" y="680"/>
+              <mxPoint x="54" y="680"/>
             </Array>
+            <mxPoint x="54" y="680" as="targetPoint"/>
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
@@ -288,32 +299,21 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vW60nO0JE0_KMwUsozgh-19" value="unlock chip" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;dashed=1;entryX=1;entryY=0.659;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.24;exitY=0.101;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="yhJoEX59a98nHaoArZQx-1" target="vW60nO0JE0_KMwUsozgh-4">
-          <mxGeometry x="-0.6441" y="-6" relative="1" as="geometry">
-            <mxPoint x="280" y="424" as="sourcePoint"/>
-            <mxPoint x="281" y="478" as="targetPoint"/>
-            <Array as="points">
-              <mxPoint x="400" y="424"/>
-              <mxPoint x="400" y="463"/>
-            </Array>
-            <mxPoint as="offset"/>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="vW60nO0JE0_KMwUsozgh-20" value="read chip" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;dashed=1;entryX=1;entryY=0.659;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.24;exitY=0.101;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="yhJoEX59a98nHaoArZQx-1">
           <mxGeometry x="-0.6441" y="-6" relative="1" as="geometry">
-            <mxPoint x="282" y="500" as="sourcePoint"/>
-            <mxPoint x="280" y="539" as="targetPoint"/>
+            <mxPoint x="282" y="390" as="sourcePoint"/>
+            <mxPoint x="280" y="429" as="targetPoint"/>
             <Array as="points">
-              <mxPoint x="402" y="500"/>
-              <mxPoint x="402" y="539"/>
+              <mxPoint x="402" y="390"/>
+              <mxPoint x="402" y="429"/>
             </Array>
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="vW60nO0JE0_KMwUsozgh-22" value="return Document NFC" style="html=1;verticalAlign=bottom;endArrow=async;dashed=1;endSize=8;exitX=0.2;exitY=0.415;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;" edge="1" parent="yhJoEX59a98nHaoArZQx-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270.5" y="570" as="sourcePoint"/>
-            <mxPoint x="70" y="570" as="targetPoint"/>
+            <mxPoint x="270.5" y="480" as="sourcePoint"/>
+            <mxPoint x="70" y="480" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="vW60nO0JE0_KMwUsozgh-24" value="POST /users/{id}/idchecks/{id}/documents" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;dashed=1;" edge="1" target="vW60nO0JE0_KMwUsozgh-23" parent="yhJoEX59a98nHaoArZQx-1" source="vW60nO0JE0_KMwUsozgh-0">
@@ -328,11 +328,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vW60nO0JE0_KMwUsozgh-32" value="NFC Tag Data &amp;amp; OCR Data, images" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="yhJoEX59a98nHaoArZQx-1">
-          <mxGeometry x="160" y="760" width="150" height="40" as="geometry"/>
+          <mxGeometry x="90" y="405" width="150" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="vW60nO0JE0_KMwUsozgh-33" value="" style="edgeStyle=none;endArrow=none;exitX=0.4;exitY=0;dashed=1;html=1;" edge="1" source="vW60nO0JE0_KMwUsozgh-32" parent="yhJoEX59a98nHaoArZQx-1">
+        <mxCell id="vW60nO0JE0_KMwUsozgh-33" value="" style="edgeStyle=none;endArrow=none;exitX=0.443;exitY=1.09;dashed=1;html=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="vW60nO0JE0_KMwUsozgh-32" parent="yhJoEX59a98nHaoArZQx-1">
           <mxGeometry x="1" relative="1" as="geometry">
-            <mxPoint x="150" y="570" as="targetPoint"/>
+            <mxPoint x="160" y="480" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="vW60nO0JE0_KMwUsozgh-38" value="Users Daon NFC SDK" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="yhJoEX59a98nHaoArZQx-1">

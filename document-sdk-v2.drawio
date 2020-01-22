@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-22T21:42:32.829Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="NNpZFnGLOGPooa4oEHaw" version="12.5.6" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-01-22T21:53:19.930Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="06tbXo0_1742G9FRklqg" version="12.5.6" type="github" pages="2">
   <diagram name="Document SDK 2.0 Mindmap" id="ad52d381-51e7-2e0d-a935-2d0ddd2fd229">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -238,7 +238,60 @@
         <mxCell id="yhJoEX59a98nHaoArZQx-0"/>
         <mxCell id="yhJoEX59a98nHaoArZQx-1" parent="yhJoEX59a98nHaoArZQx-0"/>
         <mxCell id="vW60nO0JE0_KMwUsozgh-0" value="App" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;dashed=1;" vertex="1" parent="yhJoEX59a98nHaoArZQx-1">
-          <mxGeometry x="20" y="20" width="100" height="710" as="geometry"/>
+          <mxGeometry x="20" y="10" width="100" height="710" as="geometry"/>
+        </mxCell>
+        <mxCell id="vW60nO0JE0_KMwUsozgh-1" value="Daon Document SDK" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;dashed=1;" vertex="1" parent="yhJoEX59a98nHaoArZQx-1">
+          <mxGeometry x="223" y="10" width="100" height="710" as="geometry"/>
+        </mxCell>
+        <mxCell id="vW60nO0JE0_KMwUsozgh-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;dashed=1;" vertex="1" parent="vW60nO0JE0_KMwUsozgh-1">
+          <mxGeometry x="45" y="150" width="10" height="250" as="geometry"/>
+        </mxCell>
+        <mxCell id="vW60nO0JE0_KMwUsozgh-10" value="readDocument" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;dashed=1;exitX=1;exitY=0.159;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.24;entryY=0.534;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="vW60nO0JE0_KMwUsozgh-1" source="vW60nO0JE0_KMwUsozgh-4" target="vW60nO0JE0_KMwUsozgh-4">
+          <mxGeometry x="-0.6959" y="-47" relative="1" as="geometry">
+            <mxPoint x="-203" y="730" as="sourcePoint"/>
+            <mxPoint x="67" y="280" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="55" y="183"/>
+              <mxPoint x="137" y="183"/>
+              <mxPoint x="137" y="284"/>
+            </Array>
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vW60nO0JE0_KMwUsozgh-2" value="NFC Metadata Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;dashed=1;" vertex="1" parent="yhJoEX59a98nHaoArZQx-1">
+          <mxGeometry x="427" y="10" width="100" height="710" as="geometry"/>
+        </mxCell>
+        <mxCell id="vW60nO0JE0_KMwUsozgh-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;dashed=1;" vertex="1" parent="vW60nO0JE0_KMwUsozgh-2">
+          <mxGeometry x="43" y="310" width="10" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="vW60nO0JE0_KMwUsozgh-14" value="GET /nfcinstructions" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;dashed=1;" edge="1" target="vW60nO0JE0_KMwUsozgh-13" parent="vW60nO0JE0_KMwUsozgh-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-147" y="310" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vW60nO0JE0_KMwUsozgh-3" value="Onboarding Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;dashed=1;" vertex="1" parent="yhJoEX59a98nHaoArZQx-1">
+          <mxGeometry x="630" y="10" width="100" height="710" as="geometry"/>
+        </mxCell>
+        <mxCell id="vW60nO0JE0_KMwUsozgh-5" value="readDocumentNFC" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;dashed=1;" edge="1" parent="yhJoEX59a98nHaoArZQx-1" source="vW60nO0JE0_KMwUsozgh-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="208" y="160" as="sourcePoint"/>
+            <mxPoint x="267" y="165" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="170" y="165"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vW60nO0JE0_KMwUsozgh-12" value="readDocument Callbacks" style="html=1;verticalAlign=bottom;endArrow=async;dashed=1;endSize=8;exitX=0.2;exitY=0.415;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;" edge="1" parent="yhJoEX59a98nHaoArZQx-1" source="vW60nO0JE0_KMwUsozgh-4" target="vW60nO0JE0_KMwUsozgh-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="740" as="sourcePoint"/>
+            <mxPoint x="20" y="740" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vW60nO0JE0_KMwUsozgh-15" value="return NFC Instruction" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;entryX=0.92;entryY=0.94;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="yhJoEX59a98nHaoArZQx-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280.20000000000005" y="395" as="targetPoint"/>
+            <mxPoint x="473" y="396" as="sourcePoint"/>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

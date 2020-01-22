@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-22T21:36:14.555Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="oDn0SWUXt8dP5NQYp2I1" version="12.5.6" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-01-22T21:36:52.899Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="Nv20xtPy5tZFg_yZXvQQ" version="12.5.6" type="github" pages="2">
   <diagram name="Document SDK 2.0 Mindmap" id="ad52d381-51e7-2e0d-a935-2d0ddd2fd229">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -222,6 +222,12 @@
         </mxCell>
         <mxCell id="26DRuk9L7VsWbkv16E09-31" value="Remove &lt;br&gt;Default UI" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="670" y="100" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="n4UrVZoiI_uGFLUXMeBl-13" value="" style="endArrow=classic;html=1;dashed=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.329;exitY=-0.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="26DRuk9L7VsWbkv16E09-1" target="n4UrVZoiI_uGFLUXMeBl-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="680" as="sourcePoint"/>
+            <mxPoint x="60" y="630" as="targetPoint"/>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

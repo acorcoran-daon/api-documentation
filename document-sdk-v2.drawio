@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-23T08:29:37.426Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="MColnIsuIdxgsaeikeAw" version="12.5.6" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2020-01-23T08:30:22.441Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="3_YgfhIEjPApqvFzlXam" version="12.5.6" type="github" pages="5">
   <diagram name="Document SDK 2.0 Mindmap" id="ad52d381-51e7-2e0d-a935-2d0ddd2fd229">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -409,6 +409,14 @@
         </mxCell>
         <mxCell id="OD2bBNcjZCirL42ehKBj-26" value="Update metadata service w/ read metadata" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OD2bBNcjZCirL42ehKBj-1">
           <mxGeometry x="550" y="670" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="dZXkfOMbz_rxAATaJuMU-0" value="At this stage we know both the device &amp;amp; document" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;" vertex="1" parent="OD2bBNcjZCirL42ehKBj-1">
+          <mxGeometry x="550" y="340" width="150" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="dZXkfOMbz_rxAATaJuMU-1" value="" style="edgeStyle=none;endArrow=none;exitX=0.5;exitY=1;dashed=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="dZXkfOMbz_rxAATaJuMU-0" parent="OD2bBNcjZCirL42ehKBj-1" target="OD2bBNcjZCirL42ehKBj-20">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="510" y="400" as="targetPoint"/>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
